@@ -1,0 +1,13 @@
+{
+    "name": "MacBLAS",
+    "references": [
+		"Barracuda"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor",
+        "macOSStandalone"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true
+}
