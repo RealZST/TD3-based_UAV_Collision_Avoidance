@@ -29,7 +29,7 @@ public class ElisaScript : MonoBehaviour
     private float currentYRotation;
     private float rotationSpeed = 1000;
 
-    private int amountOfWingtipVorticesOnElisas = 0;
+    // private int amountOfWingtipVorticesOnElisas = 0;
 
     // private ParticleSystem[] wingtipVortices;
 
@@ -69,7 +69,9 @@ public class ElisaScript : MonoBehaviour
         if (
         	droneMovementScript.upForce == 450 ||
             droneMovementScript.upForce == -200 ||
-            droneMovementScript.tiltMovementSpeed == 0.1f
+            droneMovementScript.tiltMovementSpeed == 0.1f ||
+            droneMovementScript.directionForward != 0.0f ||
+            droneMovementScript.directionSwerve != 0.0f
         	)
         {
             rotationSpeed = movingRotationSpeed;

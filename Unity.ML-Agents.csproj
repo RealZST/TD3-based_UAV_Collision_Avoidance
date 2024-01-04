@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6A2576DB-58E0-89D7-FAD7-47C0A4659AC0}</ProjectGuid>
+    <ProjectGuid>{7A418CE7-774D-A83B-0C4C-FBA230E70857}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ML-Agents</AssemblyName>
@@ -55,87 +55,67 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Academy.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\ActionMasker.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Agent.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\AssemblyInfo.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Constants.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\DecisionRequester.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Demonstration.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\DemonstrationRecorder.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\DemonstrationStore.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\EpisodeIdCounter.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\AgentAction.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\AgentInfo.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\AgentInfoActionPair.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\BrainParameters.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\Command.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\CustomResetParameters.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\DemonstrationMeta.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\EngineConfiguration.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\Header.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\Observation.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\SpaceType.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\UnityInput.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\UnityMessage.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\UnityOutput.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\UnityRlInitializationInput.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\UnityRlInitializationOutput.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\UnityRlInput.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\UnityRlOutput.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\UnityToExternal.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\CommunicatorObjects\UnityToExternalGrpc.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\GrpcExtensions.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Grpc\RpcCommunicator.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\ICommunicator.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\InferenceBrain\ApplierImpl.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\InferenceBrain\BarracudaModelParamLoader.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\InferenceBrain\GeneratorImpl.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\InferenceBrain\ModelRunner.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\InferenceBrain\TensorApplier.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\InferenceBrain\TensorGenerator.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\InferenceBrain\TensorNames.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\InferenceBrain\TensorProxy.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\InferenceBrain\Utils\Multinomial.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\InferenceBrain\Utils\RandomNormal.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Monitor.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Policy\BarracudaPolicy.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Policy\BehaviorParameters.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Policy\BrainParameters.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Policy\HeuristicPolicy.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Policy\IPolicy.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Policy\RemotePolicy.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\CameraSensor.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\CameraSensorComponent.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\ISensor.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\Observation.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\RayPerceptionSensor.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\RayPerceptionSensorComponent2D.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\RayPerceptionSensorComponent3D.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\RayPerceptionSensorComponentBase.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\RenderTextureSensor.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\RenderTextureSensorComponent.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\SensorBase.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\SensorComponent.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\SensorShapeValidator.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\StackingSensor.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\VectorSensor.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Sensor\WriteAdapter.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\SideChannel\EngineConfigurationChannel.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\SideChannel\FloatPropertiesChannel.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\SideChannel\RawBytesChannel.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\SideChannel\SideChannel.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Timer.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\UnityAgentsException.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Runtime\Utilities.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Academy.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Agent.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\AssemblyInfo.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Communicator\GrpcExtensions.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Communicator\ICommunicator.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Communicator\RpcCommunicator.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Constants.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\DecisionRequester.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Demonstrations\Demonstration.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationRecorder.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationWriter.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\DiscreteActionMasker.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\EpisodeIdCounter.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Inference\ApplierImpl.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Inference\BarracudaModelParamLoader.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Inference\GeneratorImpl.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Inference\ModelRunner.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Inference\TensorApplier.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Inference\TensorGenerator.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Inference\TensorNames.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Inference\TensorProxy.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Inference\Utils\Multinomial.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Inference\Utils\RandomNormal.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Policies\BarracudaPolicy.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Policies\BehaviorParameters.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Policies\BrainParameters.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Policies\HeuristicPolicy.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Policies\IPolicy.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Policies\RemotePolicy.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\CameraSensor.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\CameraSensorComponent.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\ISensor.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\Observation.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensor.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent2D.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent3D.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponentBase.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\RenderTextureSensor.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\RenderTextureSensorComponent.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\SensorComponent.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\SensorShapeValidator.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\StackingSensor.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\VectorSensor.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Sensors\WriteAdapter.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\SideChannels\EngineConfigurationChannel.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\SideChannels\FloatPropertiesChannel.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\SideChannels\IncomingMessage.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\SideChannels\OutgoingMessage.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\SideChannels\RawBytesChannel.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\SideChannels\SideChannel.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Timer.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\UnityAgentsException.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Runtime\Utilities.cs" />
  <Reference Include="Barracuda">
- <HintPath>E:/RL/Test2/Library/ScriptAssemblies/Barracuda.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/ScriptAssemblies/Barracuda.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>E:/RL/Test2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/RL/Test2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -324,37 +304,37 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Google.Protobuf">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.barracuda@0.6.1-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Unsafe">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions">
- <HintPath>E:/RL/ml-agents-latest_release/com.unity.ml-agents/Plugins/System.IO.Abstractions.dll</HintPath>
+ <HintPath>E:/RL/ml-agents-0.15.1/com.unity.ml-agents/Plugins/System.IO.Abstractions.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions.TestingHelpers">
- <HintPath>E:/RL/ml-agents-latest_release/com.unity.ml-agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+ <HintPath>E:/RL/ml-agents-0.15.1/com.unity.ml-agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Grpc.Core">
- <HintPath>E:/RL/ml-agents-latest_release/com.unity.ml-agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+ <HintPath>E:/RL/ml-agents-0.15.1/com.unity.ml-agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
  </Reference>
  <Reference Include="System.Interactive.Async">
- <HintPath>E:/RL/ml-agents-latest_release/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+ <HintPath>E:/RL/ml-agents-0.15.1/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -701,6 +681,12 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.ML-Agents.CommunicatorObjects.csproj">
+      <Project>{F3894859-0294-2D74-7789-09BA0BBF417A}</Project>
+      <Name>Unity.ML-Agents.CommunicatorObjects</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

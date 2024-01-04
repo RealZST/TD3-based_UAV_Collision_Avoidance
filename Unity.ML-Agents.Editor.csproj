@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5F4FD398-9248-FB16-E852-2855573115F9}</ProjectGuid>
+    <ProjectGuid>{22808432-B409-6626-72A6-7D4381889966}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ML-Agents.Editor</AssemblyName>
@@ -55,25 +55,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Editor\AgentEditor.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Editor\BehaviorParametersEditor.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Editor\BrainParametersDrawer.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Editor\DemonstrationDrawer.cs" />
-     <Compile Include="E:\RL\ml-agents-latest_release\com.unity.ml-agents\Editor\DemonstrationImporter.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Editor\AgentEditor.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Editor\BehaviorParametersEditor.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Editor\BrainParametersDrawer.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Editor\CameraSensorComponentEditor.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Editor\DemonstrationDrawer.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Editor\DemonstrationImporter.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Editor\EditorUtilities.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Editor\RayPerceptionSensorComponentBaseEditor.cs" />
+     <Compile Include="E:\RL\ml-agents-0.15.1\com.unity.ml-agents\Editor\RenderTextureSensorComponentEditor.cs" />
  <Reference Include="Barracuda">
- <HintPath>E:/RL/Test2/Library/ScriptAssemblies/Barracuda.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/ScriptAssemblies/Barracuda.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>E:/RL/Test2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/RL/Test2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>E:/RL/Test2/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>E:/RL/Test2/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -262,40 +266,40 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Google.Protobuf">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.barracuda@0.6.1-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Unsafe">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions">
- <HintPath>E:/RL/ml-agents-latest_release/com.unity.ml-agents/Plugins/System.IO.Abstractions.dll</HintPath>
+ <HintPath>E:/RL/ml-agents-0.15.1/com.unity.ml-agents/Plugins/System.IO.Abstractions.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions.TestingHelpers">
- <HintPath>E:/RL/ml-agents-latest_release/com.unity.ml-agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+ <HintPath>E:/RL/ml-agents-0.15.1/com.unity.ml-agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Grpc.Core">
- <HintPath>E:/RL/ml-agents-latest_release/com.unity.ml-agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+ <HintPath>E:/RL/ml-agents-0.15.1/com.unity.ml-agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
  </Reference>
  <Reference Include="System.Interactive.Async">
- <HintPath>E:/RL/ml-agents-latest_release/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+ <HintPath>E:/RL/ml-agents-0.15.1/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>E:/RL/Test2/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>E:/RL/Unity-TD3/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -654,8 +658,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.ML-Agents.csproj">
-      <Project>{6A2576DB-58E0-89D7-FAD7-47C0A4659AC0}</Project>
+      <Project>{7A418CE7-774D-A83B-0C4C-FBA230E70857}</Project>
       <Name>Unity.ML-Agents</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ML-Agents.CommunicatorObjects.csproj">
+      <Project>{F3894859-0294-2D74-7789-09BA0BBF417A}</Project>
+      <Name>Unity.ML-Agents.CommunicatorObjects</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
