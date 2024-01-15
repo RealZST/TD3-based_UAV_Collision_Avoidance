@@ -1,5 +1,5 @@
 # TD3-based_UAV_collision_avoidance
-code for `[Autonomous navigation of UAV in multi-obstacle environments based on a Deep Reinforcement Learning approach](https://scholar.google.com.hk/scholar?hl=en&as_sdt=0,29&q=Autonomous+navigation+of+UAV+in+multi-obstacle+environments+based+on+a+Deep+Reinforcement+Learning+approach&btnG=)'
+code for `Autonomous navigation of UAV in multi-obstacle environments based on a Deep Reinforcement Learning approach' [Google Scholar](https://scholar.google.com.hk/scholar?hl=en&as_sdt=0,29&q=Autonomous+navigation+of+UAV+in+multi-obstacle+environments+based+on+a+Deep+Reinforcement+Learning+approach&btnG=)
 
 Video: [YouTube](https://youtu.be/1zL-srwnoZE?si=JErQlxk8PZ6JdZqP)
 
