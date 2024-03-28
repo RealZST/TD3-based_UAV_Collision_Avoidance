@@ -23,9 +23,9 @@ Video: [YouTube](https://youtu.be/1zL-srwnoZE?si=JErQlxk8PZ6JdZqP)
 # How to run
 open `rl/TD3_original/TD3_original.ipynb` in jupyternotebook and run it.  
 > Notice:  
-> Block 3 is only for examining if the environment works well  
-> Block 5 is only for training  
-> Block 9 is only for testing
+> Cell 3 is only for examining if the environment works well  
+> Cell 5 is only for training  
+> Cell 9 is only for testing
 
 If you wish to modify the environment settings, including DRL settings (actions, observations, rewards, terminal conditions), collision detection, laser ranging, etc, you can find them in `Assets/RocketAgent.cs`.  
 Or if you're interested in creating a new environment, the guide `[Learning-Environment-Create-New](https://github.com/Unity-Technologies/ml-agents/blob/latest_release/docs/Learning-Environment-Create-New.md)' could be helpful.
